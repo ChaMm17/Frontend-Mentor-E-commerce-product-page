@@ -1,0 +1,55 @@
+.sectionNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBarLeft {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  margin-left: 25rem;
+}
+
+.navBarLeft > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navBarLeft > ul > li {
+  display: flex;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.navBarLeft > ul > li > h1 {
+  font-size: xx-large;
+}
+
+.navBarRight {
+  margin-right: 25rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.navBarRight > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navBarRight > ul > li {
+  display: flex;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.Avatar {
+  height: 3rem;
+}
+
+.trait > hr {
+  height: 1px;
+  border-color: rgb(224, 224, 224);
+  margin-right: 25rem;
+  margin-left: 25rem;
+}
